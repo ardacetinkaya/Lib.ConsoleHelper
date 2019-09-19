@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lib.ConsoleHelper", "src\Li
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demo", "demo", "{E18C159D-515B-4A24-BD09-819E2C0F86CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleChoiceConsoleApp", "demo\MultipleChoiceConsoleApp\MultipleChoiceConsoleApp.csproj", "{E7B84D88-07F9-4B7E-82DD-17CAA6675277}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleChoiceConsoleApp", "demo\MultipleChoiceConsoleApp.csproj", "{E7B84D88-07F9-4B7E-82DD-17CAA6675277}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
