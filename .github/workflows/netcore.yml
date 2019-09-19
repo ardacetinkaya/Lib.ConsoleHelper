@@ -1,4 +1,4 @@
-name: ASP.NET Core CI
+name: .NET Core CI
 
 on: [push]
 
@@ -8,6 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+    - name: Twitter Action
+      uses: xorilog/twitter-action@0.1
     - uses: actions/checkout@v1
     - name: Setup .NET Core
       uses: actions/setup-dotnet@v1
