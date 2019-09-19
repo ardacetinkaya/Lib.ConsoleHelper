@@ -18,7 +18,7 @@ jobs:
     - name: Twitter Action
       uses: ardacetinkaya/twitter-action@0.1
       with:
-        args: -message This is a new push notification from github.com/ardacetinkaya with GitHub Actions
+        args: -message This is a new push notification for a repository from https://github.com/ardacetinkaya with GitHub Actions
       env:
         TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
         TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
