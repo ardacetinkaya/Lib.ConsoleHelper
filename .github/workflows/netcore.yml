@@ -10,7 +10,8 @@ jobs:
     steps:
     - name: Twitter Action
       uses: ardacetinkaya/twitter-action@0.1
-      args: This is a new push notification from github.com/ardacetinkaya with GitHub Actions
+      with:
+        args: This is a new push notification from github.com/ardacetinkaya with GitHub Actions
       env:
         TWITTER_CONSUMER_KEY: ${{ secrets.TWITTER_CONSUMER_KEY }}
         TWITTER_CONSUMER_SECRET: ${{ secrets.TWITTER_CONSUMER_SECRET }}
