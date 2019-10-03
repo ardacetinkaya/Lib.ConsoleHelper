@@ -37,5 +37,19 @@ Interaction with an application on CLI can make the application powerful. This s
             });
 
             var selectedLanguage = menu.ReadChoice(true);
-````
+```
 
+## Settings ##
+
+When initializing ```MultipleChoiceMenu```, it is possible to modify some menu features.
+
+```csharp
+            Settings settings = new Settings
+            {
+                IntroText = "Please choice:",
+                Selection = "*",
+                SelectionColor = ConsoleColor.Yellow
+            };
+
+            MultipleChoiceMenu menu = new MultipleChoiceMenu(settings);
+```
