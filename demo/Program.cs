@@ -37,12 +37,12 @@ namespace MultipleChoiceConsoleApp
                 Value = "5"
             });
 
-            var selectedClass = menu.ReadChoice(true);
+            var selectedLanguage = menu.ReadChoice(true);
 
-            if (selectedClass == null)
+            if (selectedLanguage == null)
                 Console.WriteLine("Cancelled");
             else
-                Console.WriteLine(selectedClass.Title);
+                Console.WriteLine(selectedLanguage.Title);
         }
     }
 }
