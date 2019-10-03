@@ -8,7 +8,7 @@ Interaction with an application on CLI can make the application powerful. This s
 ## Usage ##
 
 ```csharp
-            MultipleChoiceMenu menu = new MultipleChoiceMenu();
+            ChoiceMenu menu = new ChoiceMenu();
 
             menu.Options.Add(new MenuItem
             {
@@ -41,7 +41,7 @@ Interaction with an application on CLI can make the application powerful. This s
 
 ## Settings ##
 
-When initializing ```MultipleChoiceMenu```, it is possible to modify some menu features.
+When initializing ```ChoiceMenu```, it is possible to modify some menu features.
 
 ```csharp
             Settings settings = new Settings
@@ -51,5 +51,5 @@ When initializing ```MultipleChoiceMenu```, it is possible to modify some menu f
                 SelectionColor = ConsoleColor.Yellow
             };
 
-            MultipleChoiceMenu menu = new MultipleChoiceMenu(settings);
+            ChoiceMenu menu = new ChoiceMenu(settings);
 ```

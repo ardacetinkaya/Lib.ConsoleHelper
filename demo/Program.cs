@@ -9,7 +9,7 @@ namespace MultipleChoiceConsoleApp
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("Welcome to a multiple choice menu demo...");
-            MultipleChoiceMenu menu = new MultipleChoiceMenu();
+            ChoiceMenu menu = new ChoiceMenu();
 
             menu.Options.Add(new MenuItem
             {

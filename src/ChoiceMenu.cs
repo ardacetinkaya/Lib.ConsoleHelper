@@ -4,11 +4,11 @@ namespace Lib.ConsoleHelper
     using System.Collections.Generic;
     using System.Text;
 
-    public class MultipleChoiceMenu
+    public class ChoiceMenu
     {
         private Settings _settings;
         public List<MenuItem> Options { get; }
-        public MultipleChoiceMenu(Settings settings = null)
+        public ChoiceMenu(Settings settings = null)
         {
             if (settings == null)
             {
