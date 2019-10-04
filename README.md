@@ -1,11 +1,19 @@
 # :computer: Lib.ConsoleHelper
 
-Interaction with an application on CLI can make the application powerful. This simple library provides easy interaction with a console application, with a simple menu mechanisim that can be controlled with arrow keys(:arrow_down: and :arrow_up:) for .NET Core applications.
+
+| Build  | Nuget |
+| ------------- | ------------- |
+| [![Build status](https://miyop.visualstudio.com/Lib/_apis/build/status/Lib-ConsoleHelper)](https://miyop.visualstudio.com/Lib/_build/latest?definitionId=4) | [![NuGet version (Lib.ConsoleHelper)](https://img.shields.io/nuget/v/Lib.ConsoleHelper.svg)](https://www.nuget.org/packages/Lib.ConsoleHelper/)  |
+
+
+This simple library provides an easy interaction way with a console application, with a simple menu mechanism that can be controlled with arrow keys(:arrow_down: and :arrow_up:) for .NET Core applications.
 
 ![Menu](https://github.com/ardacetinkaya/Lib.ConsoleHelper/blob/master/images/menu.gif)
 
 
 ## Usage ##
+
+It's very to easy to create a menu for a console application. 
 
 ```csharp
             ChoiceMenu menu = new ChoiceMenu();
