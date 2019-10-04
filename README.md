@@ -13,6 +13,8 @@ This simple library provides an easy interaction way with a console application,
 
 ## Usage ##
 
+It's very to easy to create a menu for a console application. 
+
 ```csharp
             ChoiceMenu menu = new ChoiceMenu();
 
