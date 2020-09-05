@@ -31,18 +31,19 @@ namespace Lib.ConsoleHelper
         {
             if (Options.Count > 0)
             {
+                Console.Clear();
                 if (!string.IsNullOrEmpty(_settings.IntroText))
                 {
                     Console.WriteLine($"{Environment.NewLine}{_settings.IntroText}");
                 }
 
                 int x = 0;
-                int y = Console.CursorTop + 1;
+                int y = 3;
                 int currentSelection = 0;
 
                 ConsoleKey key;
                 Console.CursorVisible = false;
-
+                
                 do
                 {
                     for (int i = 0; i < Options.Count; i++)

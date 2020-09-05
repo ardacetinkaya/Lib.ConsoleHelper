@@ -7,10 +7,10 @@ namespace MultipleChoiceConsoleApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Welcome to a multiple choice menu demo...");
-            ChoiceMenu menu = new ChoiceMenu();
-
+            ChoiceMenu menu = new ChoiceMenu(new Settings
+            {
+                IntroText="Welcome to a multiple choice menu demo..."
+            });
             menu.Options.Add(new MenuItem
             {
                 Title = "C#",

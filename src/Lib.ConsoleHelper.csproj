@@ -1,12 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <ApplicationIcon />
     <StartupObject />
     <Authors>Arda</Authors>
     <Description>This simple library provides easy interaction with a console application, with a simple menu mechanisim that can be controlled with arrow keys for .NET Core applications.</Description>
-    <Version>1.0.0</Version>
+    <Version>1.1.0</Version>
     <PackageTags>cli;menu;console;command line;terminal</PackageTags>
     <Copyright>Copyleft 2019</Copyright>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>

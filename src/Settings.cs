@@ -4,8 +4,8 @@ namespace Lib.ConsoleHelper
 
     public class Settings
     {
-        public string Selection { get; set; }
-        public ConsoleColor SelectionColor { get; set; }
-        public string IntroText { get; internal set; }
+        public string Selection { get; set; } = "*";
+        public ConsoleColor SelectionColor { get; set; } = ConsoleColor.Yellow;
+        public string IntroText { get; set; }
     }
 }
